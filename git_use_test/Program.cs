@@ -37,6 +37,7 @@ app.Run();
 int x = 0;
 x = 3;
 x = 5;
+x = 7;
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
