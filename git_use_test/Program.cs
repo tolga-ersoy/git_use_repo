@@ -39,6 +39,7 @@ x = 3;
 x = 5;
 x = 7;
 string y = "2ci dev commit";
+string z = "3cü commiti sildim. şuan 4cü dev commitini yolluyorum";
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
